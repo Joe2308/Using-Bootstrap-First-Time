@@ -15,6 +15,10 @@ body {
   -o-background-size: cover;
   background-size: cover;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .quotes-container {
@@ -23,4 +27,16 @@ body {
 
 .features-container {
     
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-size: bold;
+    margin-bottom: 30px;
 }
