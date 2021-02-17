@@ -50,20 +50,35 @@ body {
     
 }
 
+/* page headers */
+
+.page-header {
+    margin-bottom: 0;
+    bottom-border: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
 /* block-dividers */
 
 .block-divider {
     width: 100px;
     height: 5px;
     border: none;
+    background-color: #444;
 }
 
 .block-divider-blue {
     background-color: #7fa1c5
 }
 
-.block-divider {
+/* content containers */
 
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* navbar */
