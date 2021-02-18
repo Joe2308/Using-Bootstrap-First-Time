@@ -2,6 +2,15 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper-red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -47,8 +56,9 @@ body {
 }
 
 .features-container {
-    
+
 }
+
 
 /* page headers */
 
@@ -56,6 +66,10 @@ body {
     margin-bottom: 0;
     bottom-border: 0;
     text-align: center;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
 }
 
 .page-header h2 {
@@ -72,6 +86,10 @@ body {
 
 .block-divider-blue {
     background-color: #7fa1c5
+}
+
+.block-divider-white {
+background-color: white;
 }
 
 /* content containers */
@@ -154,4 +172,33 @@ body {
     color: white;
     background-color: red;
     border-color: red;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.features .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+.favourites {
+    text-align: center;
+}
+
+.table {
+    margin-top: 25px;
 }
